@@ -1,0 +1,32 @@
+h1 {
+	font-family: Georgia;
+	font-size: 50px;
+}
+
+div {
+	font-family: Georgia;
+	font-size: 16px;
+	margin-left: 30px;
+}
+
+.pos {
+	margin: 20px 20px 20px 20px;
+	display: flex;
+}
+
+.pos button {
+	margin-left: 20px;
+	background-color: rgb(200, 130, 70);
+	transition-duration: 0.5s;
+	text-align: center;
+	border-radius: 10px;
+	border-color: lightblue;
+}
+
+.pos button:hover {
+	background-color: rgb(260, 180, 100);
+}
+
+.hide-me {
+	display: none;
+}
